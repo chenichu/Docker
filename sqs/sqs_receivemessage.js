@@ -10,7 +10,7 @@ AWS.config.logger = console;
 // Create an SQS service object
 var sqs = new AWS.SQS({apiVersion: '2012-11-05'});
 
-var queueURL = "https://sqs.us-west-2.amazonaws.com/909606877169/TestQueue";
+var queueURL = "https://sqs.us-west-2.amazonaws.com/123456789012/TestQueue";
 
 var params = {
   AttributeNames: [
