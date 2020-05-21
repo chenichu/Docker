@@ -1,0 +1,14 @@
+{
+  "name": "showawscallerid",
+  "version": "1.0.0",
+  "description": "This application shows the AWS credentials used",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "patrick",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.680.0"
+  }
+}
